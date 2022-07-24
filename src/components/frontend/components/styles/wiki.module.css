@@ -1,0 +1,36 @@
+.fighters{
+  flex-wrap: wrap;
+  display: flex;
+}
+.fighter_avatar{
+  max-width:100%;
+  height: 250px;
+}
+.fighter_nickname{
+  color: var(--fight-przewodni);
+  font-weight: bold;
+}
+.ahref{
+  color: var(--fight-bialy);
+}
+.ahrefA{
+  color: #000;
+}
+.ahref:hover{
+  color: var(--fight-przewodni);
+}
+.ahrefA:hover{
+  color: var(--fight-przewodni);
+}
+
+@media (max-width: 991.98px){
+  .fighters{
+    text-align: center;
+    display: block;
+  }
+}
+.latest__fights{
+  height: auto;
+  width: 350px;
+  max-width: 350px;
+}

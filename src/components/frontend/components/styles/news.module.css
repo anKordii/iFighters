@@ -1,0 +1,26 @@
+.article{
+    border-radius: 20px;
+    background-color: black;
+}
+.article h2{
+    text-transform: capitalize;
+    font-size: 1.75rem;
+    font-weight: 200;
+}
+.article h2 strong{
+    font-weight: 800;
+    text-transform: lowercase;
+    color: var(--fight-przewodni);
+}
+.article em strong{
+    color: var(--fight-tlo-akcent);
+}
+.article .new{
+    color: #ff5c5c;
+    font-weight: 800;
+}
+.article .winner{
+    text-transform: capitalize;
+    color: #5cff7f;
+    font-weight: bold;
+}

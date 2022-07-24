@@ -1,0 +1,92 @@
+/* basic styles */
+.skeleton {
+    background: linear-gradient(to right, #50535a 0%, #656871 20%, #50535a 40%, #50535a 100%),#50535a;
+    background-repeat: repeat-y;
+    background-size: 800px 104px;
+    background-position: 0 0;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-name: placeHolderShimmer;
+    -webkit-animation-timing-function: linear;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 4px;
+  }
+  .skeleton.avatar {
+    width: 250px;
+    height: 250px;
+  }
+  .skeleton.fighter_nickname{
+    width: 50%;
+    height: 2rem;
+  }
+  .skeleton.fighter_name{
+    width: 100%;
+    height: 2rem;
+  }
+  .skeleton.fighter_name2{
+    width: 90%;
+    height: 2rem;
+  }
+  .skeleton.fighter_score2{
+    width: 50%;
+    height: 1.25rem;
+  }
+  .skeleton.fighter_contracted2{
+    width: 30%;
+    height: 1.25rem;
+  }
+  .skeleton.fighter_belts2{
+    width: 30%;
+    height: 1.25rem;
+  }
+  .skeleton.fighter_career{
+    width: 20%;
+    height: 2rem;
+  }
+  .skeleton.fighter_description{
+    width: 100%;
+    height: 40rem;
+    margin-bottom: 2rem;
+  }
+  .skeleton.fighter_main_description{
+    width: 90%;
+    height: 5rem;
+    margin-bottom: 2rem;
+  }
+  .skeleton.fighter_comments{
+    width: 100%;
+    height: 20rem;
+  }
+  .skeleton.vs{
+    width: 70%;
+    height: 1rem;
+  }
+  .skeleton.vsLatest{
+    width: 100%;
+    height: 4.50rem;
+  }
+
+  @keyframes shine {
+    to {
+      background-position: 100% 0;
+    }
+  }
+  @keyframes placeHolderShimmer {
+    0% {
+      background-position: -468px 0
+    }
+    100% {
+      background-position: 468px 0
+    }
+  }
+  
+  @keyframes prideShimmer {
+    from {
+      background-position: top left
+    }
+    to {
+      background-position: top right
+    }
+  }
